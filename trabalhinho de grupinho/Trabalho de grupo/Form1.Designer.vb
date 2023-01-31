@@ -60,6 +60,7 @@ Partial Class FrmQuiz
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(809, 497)
         Me.Controls.Add(Me.CmdRegras)
         Me.Controls.Add(Me.CmdJogar)
